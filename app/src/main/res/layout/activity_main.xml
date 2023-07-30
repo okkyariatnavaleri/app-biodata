@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:hint="Masukkan nama anda" />
+
+    <EditText
+        android:id="@+id/jenis_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="8dp"
+        android:hint="Jenis kelamin" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jenis_kelamin"
+        android:layout_marginTop="9dp"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/tempat_lahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="115dp"
+        android:hint="Tempat lahir" />
+
+    <EditText
+        android:id="@+id/nomor_hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempat_lahir"
+        android:layout_marginTop="8dp"
+        android:hint="Nomor HP" />
+
+    <Button
+        android:id="@+id/kirim_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nomor_hp"
+        android:layout_marginTop="58dp"
+        android:text="Kirim data" />
+
+
+</RelativeLayout>
+
+
+
